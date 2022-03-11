@@ -1,0 +1,53 @@
+.quemSomos {
+    margin-top: 30px;
+    padding: 0 0 50px;
+    position: relative;
+}
+
+.qualidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 50px;
+}
+
+.qualidade {
+    background-color: #943334;
+    border-radius: 5px;
+    height: 150px;
+    margin: 10px 30px;
+    padding: 20px 15px;
+    text-align: center;
+    width: 40%;
+}
+
+.qualidade__titulo {
+    color: #ffcf2d;
+    margin: 0 0 10px;
+    padding: 0 10px 5px;
+}
+
+.qualidade__descricao {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .qualidades {
+        margin: 0 0 30px;
+    }
+
+    .qualidade {
+        width: 85%;
+    }
+
+    .bg__mobile {
+        text-align: center;
+        background-color: #943334;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .qualidades__saiba-mais {
+        color: #ffcf2d;
+    }
+}

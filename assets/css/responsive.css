@@ -1,0 +1,308 @@
+@media not all and (max-width: 768px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .barra-nav {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #943334;
+        height: 3px;
+        width: 100%;
+        margin: 5px auto;
+
+        transition-duration: 0.3s;
+    }
+
+
+    .menu.sticky .one,
+    .menu.sticky .two,
+    .menu.sticky .three,
+    .menu.on .one,
+    .menu.on .two,
+    .menu.on .three {
+        background-color: #FFF;
+    }
+
+    .menu-toggle {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 38px;
+        right: 5%;
+        cursor: pointer;
+    }
+
+    .sticky__menu-toggle {
+        top: 28px;
+    }
+
+    .menu.on {
+        height: 100%;
+        background-color: #943334;
+    }
+
+    .menu.on .barra-nav {
+        display: block;
+    }
+
+    .menu.on .barra-nav .menu-itens li a {
+        color: #FFF;
+    }
+
+    .menu.on .barra-nav .menu-img{
+        display: none;
+    }
+
+    .menu.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 5px);
+    }
+
+    .menu.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(6px, -5px);
+    }
+    
+    .menu-itens {
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    .menu-itens li {
+        padding: 10px;
+    }
+
+    .menu-itens li:nth-child(3) {
+        display: none;
+    }
+
+    .menu-itens li:nth-child(4) {
+        display: inline;
+        order: -1;
+    }
+
+    .menu.on #logo-mobile-vermelho {
+        display: none;
+    }
+
+    .menu.sticky.on #logo-mobile-amarela {
+        display: none;
+    }
+
+    .menu.on .menu-itens li:nth-child(4) .menu-img {
+        display: initial;
+    }
+
+    .titulo {
+        margin: 0 auto 40px;
+    }
+
+    .cta {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 425px){
+    .banner-background {
+        height: 400px;
+    }
+
+    .home-conteudo-titulo {
+        width: 90%;
+        margin: 20px 0;
+        font-size: 24px;
+    }
+
+    .home-conteudo-img {
+        margin-top: 0;
+        width: 200px;
+    }
+
+    .sec-title, .sobre-nos > h1 {
+        width: 80%;
+    }
+
+    .title-paginas {
+        width: 80%;
+    }
+
+    .sec-vantagens {
+        padding: 40px 0;
+    }
+
+    .vantagem {
+        margin: 10px 0;
+    }
+
+    .svg-top {
+        height: 30px;
+    }
+
+    .projeto {
+        width: 90%;
+        align-items: center;
+    }
+
+    .projeto img {
+        width: 100px;
+    }
+
+    .projeto-descricao {
+        padding: 10px;
+    }
+
+    .projeto-descricao > p {
+        line-height: 18px;
+    }
+
+    .qualidades {
+        width: 100%;
+        margin: 0;
+    }
+
+    .qualidade {
+        width: 60%;
+    }
+
+    .sobre-titulo {
+        padding: 0 0 5px;
+        font-size: 0.9rem;
+    }
+
+    .qualidade > p {
+        font-size: 0.7rem;
+    }
+
+    .saiba-mais {
+        z-index: 1;
+    }
+
+    .sol {
+        width: 200px;
+    }
+
+    .como-funciona-passo {
+        width: 240px;
+    }
+
+    .como-funciona-passo > p {
+        width: 70%;
+    }
+
+    .sobre-nos {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    footer {
+        padding: 20px 10px 10px;
+    }
+
+    .wpp-fixed img {
+        width: 40px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+    
+    .footer-link {
+        padding: 0 0 20px;
+    }
+    
+    .footer-link > h3 {
+        padding: 5px 0 0;
+    }
+
+    footer a {
+        padding: 5px 0;
+    }
+
+    .footer-informacoes {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+
+    .contato-informacao {
+        width: 90%;
+    }
+
+    form, .mapa {
+        width: 90%;
+    }
+
+    .posicionar-sol-paginas {
+        padding: 0 0 150px;
+    }
+
+    .sol-paginas {
+        width: 200px;
+    }
+
+    .crescimento {
+        width: 90%;
+    }
+
+    .crescimento p span {
+        font-size: 14px;
+    }
+
+    .crescimento p:nth-child(2) img {
+        left: 5%;
+    }
+
+    .crescimento p:nth-child(2) span, .crescimento p:nth-child(3) span {
+        left: 15%;
+    }
+
+    .crescimento p:nth-child(3) img {
+        left: 4%;
+    }
+
+    .grafico img {
+        max-width: 370px;
+    }
+
+    .grafico h2 {
+        font-size: 22px;        
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .mapa-atendimento h2 {
+        font-size: 22px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px){
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .projeto {
+        width: 85%;
+    }
+
+    .como-funciona-passo {
+        width: 167px;
+    }
+    
+    .como-funciona-passo > p {
+        width: 80%;
+    }
+
+    .grafico h2 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,42 @@
+.footer {
+    background: #ffcf2d;
+    padding: 50px 50px;
+}
+
+.footer__informacoes {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.footer__subtitulo {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    color: #943334;
+    justify-content: space-between;
+}
+
+.footer__link {
+    color: inherit;
+    font-size: 14px;
+}
+
+.footer__logo {
+    width: 200px;
+}
+
+.footer-paginas {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer__informacoes {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,79 @@
+.home {
+    position: relative;
+    height: 100vh;
+    background-image: url("../../images/banner-amarelo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.home__conteudo {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__titulo {
+    width: 90%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    color: #943334;
+    font-weight: 700;
+}
+
+.home__img {
+    max-width: 400px;
+}
+
+.seta {
+    background-color: transparent;
+    border: 1px solid #943334;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    cursor: pointer;
+    transform: translateX(-50%);
+    animation: pular 1s infinite alternate;
+}
+
+.seta img {
+    width: 26px;
+    position: absolute;
+    bottom: -1px;
+    left: 1px;
+}
+
+@keyframes pular{
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        height: 100vh;
+        padding-top: 70px;
+    }
+
+    .home__titulo {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .home__img {
+        margin-top: -50px;
+    }
+
+    .seta {
+        display: none;
+    }
+}

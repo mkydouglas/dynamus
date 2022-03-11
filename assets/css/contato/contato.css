@@ -1,0 +1,54 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #943334;
+}
+
+.contato__social{
+    width: 30px;
+    padding: 5px;
+}
+
+.contato-informacoes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wpp {
+    background-color: #54cc61;
+    width: 200px;
+    margin: 20px auto;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.wpp:hover {
+    box-shadow: 0 0 6px #000;
+}
+
+.wpp img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.mapa {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .contato {
+        order: 1;
+        margin-top: 50px;
+    }
+}

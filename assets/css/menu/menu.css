@@ -1,0 +1,108 @@
+.menu {
+    background-color: transparent;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: .4s;
+}
+
+.sticky {
+    background-color: #943334;
+}
+
+.menu.sticky {
+    padding: 10px 0;
+}
+
+.logo-vermelha {
+    display: inline;
+}
+
+.logo-amarela {
+    display: none;
+}
+
+.sticky .logo-vermelha {
+    display: none;
+}
+
+.sticky .logo-amarela {
+    display: inline;
+}
+
+.scroll {
+    position: fixed;
+}
+
+.img-menu-mobile {
+    display: none;
+}
+
+.menu-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #943334;
+    font-weight: 500;
+    transition: 0.5s;
+    position: relative;
+}
+
+.menu-item::after {
+    content: '';
+    position: absolute;
+    background-color: #943334;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+}
+
+.menu-itens li:nth-child(3) .menu-item::after,
+.menu-itens li:nth-child(4) .menu-item::after,
+.sticky .menu-itens li:nth-child(3) .menu-item::after,
+.sticky .menu-itens li:nth-child(4) .menu-item::after {
+    content: none;
+}
+
+.menu-item:hover::after {
+    width: 100%;
+}
+
+.sticky .menu-item {
+    color: #FFF;
+}
+
+.sticky .menu-item::after {
+    background-color: #ffcf2d;
+}
+
+.sticky .menu-item:hover {
+    color: #ffcf2d;
+}
+
+.menu-img {
+    width: 200px;
+}
+
+.mobile__menu-img {
+    width: 200px;
+    margin-left: 5%;
+}
+
+@media (max-width: 768px) {
+    .sticky-logo {
+        display: inline-block;
+        margin-left: 5%;
+    }
+}

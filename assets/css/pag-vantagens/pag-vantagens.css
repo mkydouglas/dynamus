@@ -1,0 +1,28 @@
+.box__vantagem {
+    width: 730px;
+    margin: 40px auto;
+    box-shadow: 0 0 6px #000;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box__vantagem-descricao {
+    text-align: justify;
+    line-height: 24px;
+    padding: 20px 0;
+}
+
+.box__vantagem-img {
+    width: 690px;
+}
+
+@media (max-width: 425px) {
+    .box__vantagem {
+        width: 100%;
+    }
+
+    .box__vantagem-img {
+        width: 100%;
+    }
+}

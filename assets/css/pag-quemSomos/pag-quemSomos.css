@@ -1,0 +1,89 @@
+.sec-evolucao {
+    background-color: #f5f5f5;
+    padding: 0 0 50px 0;
+}
+
+.palavra__destaque {
+    color: #ffcf2d;
+    font-weight: 700;
+}
+
+.diferencas {
+    width: 589px;
+}
+
+.crescimento {
+    border: solid 1px #0000001c;
+    border-radius: 5px;
+    width: 470px;
+    max-width: 748.5px;
+    height: 200px;
+    margin: 0 auto 50px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #0000001c;
+}
+
+.crescimento__subtitulo {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.crescimento__container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.crescimento__descricao {
+    color: #943334;
+    margin-left: 100px;
+    padding-top: 27px;
+}
+
+.crescimento__descricao-cliente::before {
+    content: url('../../images/bonequinho.png');
+    position: absolute;
+    left: 33px;
+    top: 0;
+}
+
+.crescimento__descricao-instalacao::before {
+    content: url('../../images/solzinho.png');
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.grafico {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 505PX;
+}
+
+.grafico img {
+    width: 88%;
+}
+
+.grafico h2 {
+    font-size: 32px;
+}
+
+.grafico h2 span {
+    color: #943334;
+}
+
+.mapa-atendimento {
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+.mapa-atendimento img {
+    width: 80%;
+    max-width: 585px;    
+}
+
+.mapa-atendimento h2 {
+    font-size: 32px;
+    margin: 0 auto;    
+    width: 50%;
+    max-width: 585px;
+}

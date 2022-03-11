@@ -1,0 +1,34 @@
+.vantagens {
+    text-align: center;
+}
+
+.vantagens__opcoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vantagem {
+    border: solid 1px #0000001c;
+    border-radius: 5px;
+    width: 40%;
+    height: 215px;
+    margin: 10px 30px;
+    padding: 20px 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 7px #0000001c;
+}
+
+.vantagem__img {
+    width: 50px;
+}
+
+.vantagem__titulo {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .vantagem {
+        width: 85%;
+    }
+}

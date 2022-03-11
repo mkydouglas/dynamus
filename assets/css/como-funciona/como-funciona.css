@@ -1,0 +1,80 @@
+.comoFunciona {
+    margin: 0 0 30px;
+}
+
+.passos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.passo {
+    align-items: center;
+    border: 1px solid #0000001c;
+    border-radius: 5px;
+    color: #943334;
+    display: flex;
+    height: 120px;
+    margin: 0 0 20px;
+    padding: 5px 20px;
+    position: relative;
+    text-align: left;
+    width: 40%;
+}
+
+.passo::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -35px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    transform: translateY(-75%);
+}
+
+.passo-1::before {
+    background: url('../../images/duvidas/1-painel-solar.png') no-repeat top/cover;
+}
+
+.passo-2::before {
+    background: url('../../images/duvidas/2-inversor-solar.png') no-repeat top/cover;
+}
+
+.passo-3::before {
+    background: url('../../images/duvidas/3-casa.png') no-repeat top/cover;
+}
+
+.passo-4::before {
+    background: url('../../images/duvidas/4-equpamentos-e-utensilios.png') no-repeat top/cover;
+}
+
+.passo-5::before {
+    background: url('../../images/duvidas/5-torre-de-energia.png') no-repeat top/cover;
+}
+
+.passo__numero {
+    font-size: 3rem;
+    width: 20%;
+}
+
+.passo__descricao {
+    line-height: 22px;
+    width: 80%;
+}
+
+.passo__img {
+    left: -35px;
+    position: absolute;
+    width: 50px;
+}
+
+.comoFunciona__maisDuvidas {
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .passo {
+        width: 70%;
+    }
+}

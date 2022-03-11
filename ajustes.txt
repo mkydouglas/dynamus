@@ -1,0 +1,23 @@
+- atualizar página de projetos e FAQ
+dados da página FAQ, provas sociais, links imagens
+
+-- provas sociais
+foto
+nome individuo/empresa
+dimensão da instalação
+falando sobre o serviço prestado e sobre ter a energia fotovoltáica em sua "residência"
+
+-solicitar razão social
+-solicitar cnpj
+
+-- links imagens ou imagens
+um de cada pelo menos
+
+--FAQ
+dúvidas frequêntes
+
+-dar atenção na página "Contato"
+-alterar descrição do mapa
+
+--h1
+Com a Dynamus, além de economizar na conta de luz você colabora com o meio ambiente. Com energia limpa de verdade!
